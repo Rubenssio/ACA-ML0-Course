@@ -6,7 +6,7 @@ c = num // 100
 
 print('The sum of the digits is:', a + b + c)
 
-# Another solution
+# # Another solution
 # num = input('Enter the number: ')
 #
 # print('The sum of the digits is:', int(num[0]) + int(num[1]) + int(num[2]))
