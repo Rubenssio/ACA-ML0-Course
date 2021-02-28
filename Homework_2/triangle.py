@@ -13,8 +13,8 @@ else:
     if a_squared_plus_b_squared == c_squared:
         print('Right Triangle')
 
-    if a_squared_plus_b_squared > c_squared:
+    elif a_squared_plus_b_squared > c_squared:
         print('Acute Triangle')
 
-    if a_squared_plus_b_squared < c_squared:
+    else:
         print('Obtuse Triangle')
