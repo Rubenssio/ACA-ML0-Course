@@ -1,0 +1,9 @@
+N, k = [int(n) for n in input().split()]
+
+S = [int(n) for n in input().split()]
+
+for _ in range(k):
+    S = S[-1:] + S[:-1]
+
+for num in S:
+    print(num, end=' ')
