@@ -12,7 +12,7 @@ def make_palindrome1(txt):
 
     odd_counts = 0
     impossible = False
-    middle_letter = None
+    middle_letter = ''
 
     # let's see if there is more than one letter repeated odd times
     for letter, count in letter_counts.items():
@@ -52,7 +52,7 @@ def make_palindrome2(txt):
     palindrome = []
     odd_count = 0
     impossible = False
-    middle_letter = None
+    middle_letter = ''
 
     for letter in letters:
 
