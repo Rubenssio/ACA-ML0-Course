@@ -7,5 +7,3 @@ for _ in range(k//N):
 
 for num in S:
     print(num, end=' ')
-
-print(1000%3)
